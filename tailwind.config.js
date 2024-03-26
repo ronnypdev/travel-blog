@@ -5,7 +5,15 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontSize: {
+        'h4': '25px',
+      }
+    },
+    container: {
+      center: true,
+      padding: '2rem',
+    },
   },
   plugins: [],
 }

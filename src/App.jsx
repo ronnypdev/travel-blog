@@ -1,12 +1,12 @@
+import Header from "./components/Header";
+import Article from "./components/Article";
+
 function App() {
 
   return (
     <>
-      <div className="bg-[color:var(--color-red)]">
-        <h1 className="text-3xl font-bold underline">
-          Hello world!
-        </h1>
-      </div>
+      <Header />
+      <Article />
     </>
   )
 }
